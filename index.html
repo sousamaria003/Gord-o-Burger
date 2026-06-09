@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gordão Burger — O lanche que enche o bucho</title>
+  <meta name="description" content="Hamburgueria artesanal com os maiores lanches da cidade. Gordão Burger: sabor, fartura e atitude." />
+  <meta property="og:title" content="Gordão Burger" />
+  <meta property="og:description" content="Os maiores lanches da cidade. Sabor, fartura e atitude." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="Logo.GordãoBurger.png" type="image/png">
+
+</head>
+<body>
+  <!-- NAV -->
+  <header class="nav">
+    <div class="nav-inner">
+      <a href="#top" class="logo">
+        <img src="Logo.GordãoBurger.png" alt="Gordão Burger" width="48" height="48" />
+        <span class="logo-text flame-text">GORDÃO BURGER</span>
+      </a>
+      <nav class="nav-links">
+        <a href="#cardapio">Cardápio</a>
+        <a href="#sobre">A Casa</a>
+        <a href="#pedir">Pedir</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <a href="#pedir" class="btn btn-primary nav-cta">Peça já</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Menu">☰</button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#cardapio">Cardápio</a>
+      <a href="#sobre">A Casa</a>
+      <a href="#pedir">Pedir</a>
+      <a href="#contato">Contato</a>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="top" class="hero">
+    <div class="hero-bg">
+      <img src="hero-burger.jpg" alt="" />
+      <div class="hero-overlay-r"></div>
+      <div class="hero-overlay-b"></div>
+    </div>
+    <div class="hero-inner">
+      <div class="hero-content">
+        <span class="chip">🔥 100% Artesanal</span>
+        <h1 class="hero-title">
+          O LANCHE QUE
+          <span class="flame-text">ENCHE O BUCHO.</span>
+        </h1>
+        <p class="hero-desc">Pão brioche dourado, carne na chapa pesada e ingredientes selecionados. No Gordão Burger, a gente não economiza no sabor — nem no tamanho.</p>
+        <div class="hero-cta">
+          <a href="#cardapio" class="btn btn-primary">Ver Cardápio</a>
+          <a href="#pedir" class="btn btn-outline">Pedir pelo WhatsApp</a>
+        </div>
+        <div class="hero-meta">
+          <span>⭐ 4.9 / 5 no iFood</span>
+          <span>🚚 Entrega em 30min</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section class="stats">
+    <div class="stats-inner">
+      <div class="stat"><div class="stat-n flame-text">+15</div><div class="stat-l">Anos de chapa</div></div>
+      <div class="stat"><div class="stat-n flame-text">200g</div><div class="stat-l">De carne pesada</div></div>
+      <div class="stat"><div class="stat-n flame-text">7</div><div class="stat-l">Burgers e Cachorros-Quentes exclusivos</div></div>
+      <div class="stat"><div class="stat-n flame-text">30min</div><div class="stat-l">Entrega rápida</div></div>
+    </div>
+  </section>
+
+  <!-- CARDÁPIO -->
+  <section id="cardapio" class="section container">
+    <div class="section-head">
+      <div>
+        <span class="eyebrow">Cardápio</span>
+        <h2>Os Lanches do Gordão</h2>
+      </div>
+      <p>Cinco hambúrgueres e dois dogs, cada um com personalidade própria. Todos vêm com aquele abraço de queijo derretido.</p>
+    </div>
+
+    <h3 class="menu-heading flame-text">Hambúrgueres</h3>
+    <div class="burger-grid" id="burgerGrid"></div>
+
+    <h3 class="menu-heading flame-text" style="margin-top:4rem;">Cachorros-Quentes</h3>
+    <div class="dog-grid" id="dogGrid"></div>
+
+    <div class="addons">
+      <div class="addon-card">
+        <h3 class="flame-text">Acompanhamentos</h3>
+        <ul><li>Batata Frita Palito</li><li>Nuggets</li><li>Mandioca Frita</li><li>Bolinhas de Queijo</li><li>Mini-Churros</li></ul>
+      </div>
+      <div class="addon-card">
+        <h3 class="flame-text">Bebidas e Sobremesas</h3>
+        <ul><li>Coca-Cola</li><li>Pepsi</li><li>Sprite</li><li>Milk-Shake</li><li>Sorvete</li></ul>
+      </div>
+      <div class="addon-card">
+        <h3 class="flame-text">Complementos</h3>
+        <ul><li>Cheddar +R$4</li><li>Bacon +R$5</li><li>Mais Carne +R$8</li><li>Barbecue +4</li><li>Mostarda +2</li><li>Ketchup +2</li></ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section id="sobre" class="about">
+    <div class="about-inner">
+      <div>
+        <span class="eyebrow">A Casa</span>
+        <h2>Hambúrgueres <span class="flame-text">sem frescura.</span></h2>
+        <p class="about-p">Nossa missão é simples: servir o lanche mais saboroso e farto da cidade, com ingredientes de verdade e o preço que cabe no bolso do estudante.</p>
+        <p class="about-p muted">Carne moída na hora, pão brioche assado todo dia e molhos da casa — feitos com a receita que só a vó tem.</p>
+        <div class="features">
+          <div class="feature"><div class="feature-ic">👨‍🍳</div><div class="feature-l">Chapa quente</div></div>
+          <div class="feature"><div class="feature-ic">🔥</div><div class="feature-l">Carne na hora</div></div>
+          <div class="feature"><div class="feature-ic">🚚</div><div class="feature-l">Delivery rápido</div></div>
+        </div>
+      </div>
+      <div class="about-img-wrap">
+        <div class="about-img"><img src="burger-bruto.jpg" alt="Bruto do Gordão" /></div>
+        <div class="about-quote">
+          <div class="flame-text quote-1">"O melhor</div>
+          <div class="quote-2">da cidade."</div>
+          <div class="quote-3">— clientes fiéis</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PEDIR -->
+  <section id="pedir" class="cta">
+    <div class="cta-inner">
+      <h2>Tá com fome? A gente resolve.</h2>
+      <p>Faça seu pedido pelo WhatsApp ou venha comer aqui. Aceitamos pix, cartão e dinheiro.</p>
+      <div class="cta-buttons">
+        <a href="https://wa.me/5500000000000" target="_blank" rel="noreferrer" class="btn btn-light">Pedir no WhatsApp</a>
+        <a href="#contato" class="btn btn-outline-light">Ver Endereço</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section id="contato" class="section">
+    <div class="contact-grid">
+      <div class="contact-card"><div class="contact-ic">📍</div><h3>Endereço</h3><p>Rua das Chapas, 200 — Centro</p></div>
+      <div class="contact-card"><div class="contact-ic">🕐</div><h3>Horário</h3><p>Ter a Dom — 18h às 23h</p></div>
+      <div class="contact-card"><div class="contact-ic">📞</div><h3>Contato</h3><p>(00) 00000-0000</p></div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="logo"><img src="Logo.GordãoBurger.png" alt="" width="40" height="40" /><span class="logo-text">GORDÃO BURGER</span></div>
+      <p class="copy">© <span id="year"></span> Gordão Burger. Todos os direitos reservados.</p>
+      <a href="#" class="ig">📷 @gordaoburger</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
