@@ -7,10 +7,6 @@ const burgers = [
   { name: "Gordão Sinistro", tag: "Picante", desc: "Bife, jalapeños, geleia de pimenta e cheddar. Pra quem aguenta o calor.", price: "R$ 32", img: "burger-pimenta.jpg" },
 ];
 
-const dogs = [
-  { name: "Dog do Gordão", tag: "Clássico", desc: "Salsicha grelhada, queijo derretido, batata palha, milho e molhos da casa.", price: "R$ 22", img: "dog-gordao.jpg" },
-  { name: "Dog Obeso", tag: "Monstro", desc: "Duas salsichas, bacon, cheddar, batata palha, milho, ervilha e jalapeños.", price: "R$ 30", img: "dog-obeso.jpg" },
-];
 function renderCard(b, featured = false) {
   return `
     <article class="burger-card${featured ? ' featured' : ''}">
