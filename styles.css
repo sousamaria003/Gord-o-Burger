@@ -189,9 +189,6 @@ h1, h2, h3, h4 { font-family: var(--font-display); letter-spacing: 0.02em; font-
 .burger-body p { margin-top: 0.5rem; font-size: 0.875rem; color: var(--muted); }
 .burger-price { font-family: 'Bebas Neue', sans-serif; font-size: 1.5rem; color: var(--accent); flex-shrink: 0; }
 
-/* DOGS */
-.dog-grid { display: grid; gap: 1.5rem; grid-template-columns: 1fr; }
-@media (min-width: 768px) { .dog-grid { grid-template-columns: repeat(2, 1fr); } }
 
 /* ADDONS */
 .addons { display: grid; gap: 1.5rem; margin-top: 4rem; grid-template-columns: 1fr; }
