@@ -1,10 +1,10 @@
 // Cardápio data
 const burgers = [
-  { name: "O Gigante da Casa", tag: "O Carro-Chefe", desc: "Triplo bife, bacon crocante, onion rings, cheddar e barbecue defumado.", price: "R$ 48", img: "O gigante da casa.png", featured: true },
-  { name: "Gordão Salada", tag: "Clássico", desc: "Bife, queijo, alface, tomate, cebola roxa e maionese caseira.", price: "R$ 28", img: "Gordão Salada.png" },
-  { name: "Bruto do Gordão", tag: "Pra Encher o bucho", desc: "Pão brioche, dois bifões suculentos, cheddar derretido e o molho secreto da casa.", price: "R$ 34", img: "Bruto do Gordão.png" },
-  { name: "Gran-Gordão", tag: "Reforçado", desc: "Bife duplo, queijo prato, bacon, alface e maionese da casa no pão brioche.", price: "R$ 36", img: "Gran-Gordão.png" },
-  { name: "Gordão Sinistro", tag: "Picante", desc: "Bife, jalapeños, geleia de pimenta e cheddar. Pra quem aguenta o calor.", price: "R$ 32", img: "Gordão Sinistro.png" },
+  { name: "O Gigante da Casa", tag: "O Carro-Chefe", desc: "Triplo bife, bacon crocante, onion rings, cheddar e barbecue defumado.", price: "R$ 49,90", img: "O gigante da casa.png", featured: true },
+  { name: "Gordão Salada", tag: "Clássico", desc: "Bife, queijo, alface, tomate, cebola roxa e maionese caseira.", price: "R$ 29,90", img: "Gordão Salada.png" },
+  { name: "Bruto do Gordão", tag: "Pra Encher o bucho", desc: "Pão brioche, dois bifões suculentos, cheddar derretido e o molho secreto da casa.", price: "R$ 44,90", img: "Bruto do Gordão.png" },
+  { name: "Gran-Gordão", tag: "Reforçado", desc: "Bife duplo, queijo prato, bacon, alface e maionese da casa no pão brioche.", price: "R$ 39,90", img: "Gran-Gordão.png" },
+  { name: "Gordão Sinistro", tag: "Picante", desc: "Bife, jalapeños, geleia de pimenta e cheddar. Pra quem aguenta o calor.", price: "R$ 34,90", img: "Gordão Sinistro.png" },
 ];
 
 function renderCard(b, featured = false) {
